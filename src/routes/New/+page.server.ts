@@ -14,7 +14,6 @@ export const actions: Actions = {
         body
       }
     });
-    const everything = await prisma.comment.findMany();
-    console.dir(everything, { depth: null });
+    prisma.$disconnect;
   }
 };
