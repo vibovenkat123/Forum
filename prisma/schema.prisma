@@ -7,9 +7,10 @@ generator client {
 
 model Comment {
   author String
-  id     Int    @id @default(autoincrement())
+  id     Int      @id @default(autoincrement())
   body   String
   title  String
+  create DateTime @default(now())
 }
 
 datasource db {

@@ -8,6 +8,10 @@
 </div>
 
 <style>
+  * {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
   .form {
     display: flex;
     flex-direction: column;
@@ -25,6 +29,12 @@
   }
   .form .submit {
     background-color: limegreen;
+  }
+  .form .submit:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid limegreen;
+    color: limegreen;
   }
   .container {
     width: 100vw;
