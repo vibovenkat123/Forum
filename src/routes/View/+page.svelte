@@ -50,10 +50,25 @@
     margin-top: 1em;
   }
   .container {
-    width: 50%;
+    width: 90%;
   }
   .big-container {
     display: flex;
     justify-content: center;
+  }
+  @media only screen and (min-width: 800px) {
+    .container {
+      width: 60%;
+    }
+  }
+  @media only screen and (min-width: 1350px) {
+    .container {
+      width: 40%;
+    }
+  }
+  @media only screen and (min-width: 1700px) {
+    .container {
+      width: 30%;
+    }
   }
 </style>

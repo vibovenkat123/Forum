@@ -15,7 +15,7 @@
   .form {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 90%;
     border: 2px solid black;
     border-radius: 1em;
     padding: 1em;
@@ -42,5 +42,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  @media only screen and (min-width: 650px) {
+    .form {
+      width: 75%;
+    }
+  }
+  @media only screen and (min-width: 850px) {
+    .form {
+      width: 50%;
+    }
+  }
+  @media only screen and (min-width: 1100px) {
+    .form {
+      width: 40%;
+    }
+  }
+  @media only screen and (min-width: 1350px) {
+    .form {
+      width: 30%;
+    }
   }
 </style>
